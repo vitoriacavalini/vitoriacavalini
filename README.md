@@ -1,12 +1,35 @@
-- 👋 Hi, I’m @vitoriacavalini
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+margem inferior :  100 px ;
+}
 
-<!---
-vitoriacavalini/vitoriacavalini is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+cabeçalho {
+@@ -32,10 +33,6 @@ p {
+    tamanho da fonte :  20 px ;
+}
+
+imagem {
+    altura :  200 px ;
+}
+
+. categoria-vídeos {
+    exibição : flex;
+    estouro-x : automático;
+@@ -45,4 +42,19 @@ imagem {
+. categoria {
+    preenchimento-esquerdo :  20 px ;
+    preenchimento-direito :  20 px ;
+    margem superior :  50 px ;
+}
+
+. categoria-vídeos  img {
+    opacidade :  0,5 ;
+    altura :  200 px ;
+}
+
+. categoria-videos  img : hover {
+    opacidade :  1,0 ;
+    borda :  3 px verde sólido;
+}
+
+. categoria  h2 {
+    cor :  rgb ( 42 ,  122 ,  228 );
+}
